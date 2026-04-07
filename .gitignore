@@ -1,3 +1,39 @@
+# --- AquaAssets GitIgnore ---
+
+# Configurações sensíveis
+.env
+config.php
+credentials.php
+
+# Pastas de IDEs (VS Code / PHPStorm)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Logs e Temporários
+*.log
+/temp/
+/cache/
+
+# Extensões e Binários do PHP
+/bin/
+*.dll
+*.exe
+
+# Dependências
+/vendor/
+
+# Arquivos do Sistema
+Thumbs.db
+.DS_Store
+
+
+
+
 # the composer package lock file and install directory
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
