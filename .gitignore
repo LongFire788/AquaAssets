@@ -31,7 +31,13 @@ credentials.php
 Thumbs.db
 .DS_Store
 
+# Uploads de usuários
+/public/uploads/
+/storage/
 
+# Banco de dados
+*.sql
+*.sqlite
 
 
 # the composer package lock file and install directory
