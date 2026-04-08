@@ -1,21 +1,15 @@
-MIT License
-
+AquaAssets - Sistema de Gestão de Ativos
 Copyright (c) 2026 Eduardo de Celis
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Esta licença permite que usuários visualizem, baixem e modifiquem este código para fins 
+pessoais, educacionais ou de estudo. 
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+RESTRIÇÕES COMPLEMENTARES:
+1. USO COMERCIAL: É expressamente proibido o uso deste código, no todo ou em parte, 
+   para fins comerciais, venda, revenda ou prestação de serviços pagos (SaaS) 
+   sem a autorização prévia e por escrito do autor.
+2. ATRIBUIÇÃO: Qualquer cópia ou modificação deve manter os créditos originais.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Para permissões comerciais, entre em contato através de: duducelis2005@gmail.com
+
+Licença baseada nos termos da CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
