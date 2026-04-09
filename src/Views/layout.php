@@ -31,6 +31,7 @@
 
     <footer class="main-footer">
         <p>&copy; 2026 AquaAssets. Tecnologia para gestão patrimonial.</p>
+        <a href="/credits" style="font-size: 0.8rem; color: #888; text-decoration: none;">Créditos de Imagens</a>
     </footer>
 </body>
 </html>

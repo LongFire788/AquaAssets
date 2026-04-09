@@ -12,9 +12,9 @@
     </div>
 
     <div class="hero-image-column">
-        <div class="placeholder-imagem">
-            IMAGEM
-            </div>
+        <div class="hero-image-column">
+            <img src="/assets/img/hero.jpg" alt="AquaAssets Dashboard" class="img-fluid">
+        </div>
     </div>
 
 </section>
