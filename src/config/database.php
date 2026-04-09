@@ -1,6 +1,6 @@
 <?php
 
-namespace App\config;
+namespace App\Config;
 
 use PDO;
 use PDOException;
@@ -16,7 +16,7 @@ class Database {
     public function __construct(){
         $this->host = $_ENV['DB_HOST'];
         $this->dbname = $_ENV['DB_NAME'];
-        $this->user = $_ENV['DB_USER'];;
+        $this->user = $_ENV['DB_USER'];
         $this->pass = $_ENV['DB_PASSWORD'];
     }
 
@@ -30,6 +30,7 @@ class Database {
         }
         return $this->conn;
     }
+
 
 
 }
