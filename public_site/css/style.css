@@ -1,0 +1,242 @@
+/* Configurações Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* --- Estrutura do Hero --- */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 40px;
+    gap: 40px;
+}
+
+/* Configuração das Colunas (Cofres Cinzas do desenho) */
+.hero-text-column,
+.hero-image-column {
+    flex: 1; 
+    background-color: #999;
+    padding: 60px;
+    border-radius: 20px;   
+    min-height: 400px;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* --- Estilos dos Textos (Coluna Esquerda) --- */
+.hero-text-column h1 {
+    font-size: 2.5rem;
+    color: #000;          
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.hero-text-column p {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hero-text-column .detalhe {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Botão Sugerido */
+.btn-hero {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+/* --- Estilos da Imagem (Coluna Direita) --- */
+.hero-image-column {
+    align-items: center;  
+}
+
+.placeholder-imagem {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+:root {
+    --primary-purple: #8b5cf6; 
+    --dark-bg: #0f172a;       
+    --text-main: #1e293b;
+    --glass-bg: rgba(255, 255, 255, 0.8);
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f8fafc;
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+/* --- Menu Superior --- */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px); /* Efeito de vidro embaçado */
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 15px 0;
+}
+
+.navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo */
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-circle {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(135deg, var(--primary-purple), #3b82f6);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(139, 92, 246, 0.3);
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.logo-text span {
+    color: var(--primary-purple);
+}
+
+/* Links do Menu */
+.menu-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--primary-purple);
+}
+
+/* Botão "Ir para aplicação" */
+.btn-app {
+    text-decoration: none;
+    background: var(--dark-bg);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.2);
+}
+
+.btn-app:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.3);
+    background: #1e293b;
+}
+
+
+.hero-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.hero-text-column, .hero-image-column {
+    background: white;
+    padding: 60px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+}
+
+.hero-text-column {
+    background: linear-gradient(to bottom right, #ffffff, #f1f5f9);
+}
+
+.hero-text-column h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    background: linear-gradient(to right, #0f172a, var(--primary-purple));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-image-column {
+    background: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255,0.2);
+    font-weight: 800;
+    font-size: 2rem;
+    border: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+
+.hero-image-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
