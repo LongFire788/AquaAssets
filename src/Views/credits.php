@@ -11,7 +11,7 @@
             <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
                 <h3 style="color: #ddd; margin-bottom: 5px;">Ilustração Principal (Hero)</h3>
                 <p style="color: #888; font-size: 0.9rem;">
-                    Desenvolvido por <a href="https://br.freepik.com/fotos-gratis/homem-negocios-apresentando-laptop-fim-cima_1128832.htm" target="_blank" style="color: #a78bfa;">Freepik</a>
+                    Desenvolvido por <a href="https://br.freepik.com/" target="_blank" style="color: #a78bfa;">Freepik</a>
                 </p>
             </div>
 

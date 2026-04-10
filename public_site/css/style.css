@@ -240,3 +240,108 @@ body {
     align-items: center;
     padding: 20px;
 }
+/* Estilos para a Página Sobre */
+.display-1 {
+    color: #6a11cb; /* Cor roxa do seu logo/tema */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+    border: 1px solid #e9ecef;
+}
+
+/* Estilos para a Página de Planos */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1.25rem;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(106, 17, 203, 0.15) !important;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    border: none;
+}
+
+.btn-outline-primary {
+    border-color: #6a11cb;
+    color: #6a11cb;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6a11cb;
+    border-color: #6a11cb;
+}
+
+/* Badge de "Mais Popular" */
+.badge.bg-primary {
+    background-color: #6a11cb !important;
+    padding: 0.5em 1em;
+    font-size: 0.75rem;
+}
+
+/* Ajustes de tipografia */
+.text-secondary {
+    color: #a0aec0 !important;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+ul.list-unstyled li i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+/* Centraliza a lista de benefícios sem "colar" na borda */
+.card-body .list-unstyled {
+    display: inline-block;
+    text-align: left;
+    width: auto;
+    margin: 0 auto;
+}
+
+.card-body hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.1;
+}
+
+.rounded-5 {
+    border-radius: 2rem !important;
+}
+/* Garante que o container sempre tenha um respiro lateral em telas pequenas */
+.container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+/* Deixa os cards com cara de "objeto" solto na tela */
+.card {
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Efeito de profundidade para os cards não parecerem chapados na esquerda */
+.shadow-sm {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 15px 40px rgba(106, 17, 203, 0.2) !important;
+}
+
+/* Centralização do texto nas listas dos cards */
+.list-unstyled {
+    max-width: 250px;
+    margin: 0 auto;
+}
