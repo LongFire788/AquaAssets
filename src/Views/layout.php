@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header class="navbar">
@@ -18,9 +19,9 @@
             
             <nav class="menu-links">
                 <a href="/" class="nav-link">Home</a>
-                <a href="#sobre" class="nav-link">Sobre</a>
-                <a href="#planos" class="nav-link">Planos</a>
-                <a href="/login" class="btn-app">Ir para aplicação</a>
+                <a href="/sobre" class="nav-link">Sobre</a>
+                <a href="/planos" class="nav-link">Planos</a>
+                <a href="http://app.aquaassets.test" class="btn-app">Ir para aplicação</a>
             </nav>
         </div>
     </header>
