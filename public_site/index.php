@@ -21,5 +21,7 @@ if ($uri === '/' || $uri === '/home') {
 } elseif ($uri === '/credits') {
     echo $templates->render('credits');
 } else {
+
+    http_response_code(404);
     echo "Página não encontrada!";
 }
