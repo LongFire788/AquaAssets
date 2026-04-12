@@ -8,7 +8,7 @@
             Gerenciando os Ativos da SUA empresa com simplicidade 
             <span class="detalhe">Chega de mouses largados no estoque sem ninguém saber</span>.
         </p>
-        <a href="http://app.aquaassets.test" class="btn-hero">Conhecer Planos</a>
+        <a href="/planos" class="btn-hero">Conhecer Planos</a>
     </div>
 
     <div class="hero-image-column">
