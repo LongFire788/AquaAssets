@@ -1,4 +1,4 @@
-<?php $this->layout('layout', ['title' => 'Gestão Patrimonial Inteligente']) ?>
+<?php $this->layout('Site/layout', ['title' => 'Página Inicial']) ?>
 
 <section class="hero-container">
     

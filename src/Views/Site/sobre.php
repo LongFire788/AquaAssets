@@ -1,4 +1,4 @@
-<?php $this->layout('layout', ['title' => 'Nossa História - AquaAssets']) ?>
+<?php $this->layout('Site/layout', ['title' => 'Nossa História']) ?>
 
 <div class="container py-5 px-4 px-lg-5">
     <section class="row align-items-center mb-5 pb-5 gx-5">

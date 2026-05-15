@@ -1,4 +1,4 @@
-<?php $this->layout('layout', ['title' => 'Créditos']) ?>
+<?php $this->layout('Site/layout', ['title' => 'Créditos']) ?>
 
 <main class="credits-section" style="padding: 120px 20px; min-height: 80vh; background-color: #0f172a; color: #ffffff;">
     <div style="max-width: 800px; margin: 0 auto;">
