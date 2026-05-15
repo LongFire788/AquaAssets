@@ -1,4 +1,4 @@
-<?php $this->layout('layout', ['title' => 'Planos - AquaAssets']) ?>
+<?php $this->layout('Site/layout', ['title' => 'Planos']) ?>
 
 <div class="container py-5">
     <div class="text-center mb-5">

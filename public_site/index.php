@@ -10,16 +10,16 @@ $dotenv->safeLoad();
 
 $templates = new Engine(__DIR__ . '/../src/Views');
 
-$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$uri = strtolower(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)); 
 
 if ($uri === '/' || $uri === '/home') {
-    echo $templates->render('home');
+    echo $templates->render('Site/home');
 } elseif ($uri === '/sobre') {
-    echo $templates->render('sobre');
+    echo $templates->render('Site/sobre');
 } elseif ($uri === '/planos') {
-    echo $templates->render('planos');
+    echo $templates->render('Site/planos');
 } elseif ($uri === '/credits') {
-    echo $templates->render('credits');
+    echo $templates->render('Site/credits');
 } else {
 
     http_response_code(404);
